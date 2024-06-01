@@ -1,0 +1,246 @@
+.reglaments__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.reglaments__menu-filter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 16px 26px;
+    max-width: 528px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #F5F7FB; 
+}
+
+.reglaments__menu-wrapper {
+    display: flex;
+    cursor: pointer;
+}
+
+.reglaments__menu-dropdown {
+    display: none;
+    position: absolute;
+    bottom: -296px;
+    left: 0;
+    height: 289px;
+    padding: 19px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(151,157,187,1);
+    z-index: 100;
+}
+
+.reglaments__dropdown-items {
+    position: absolute;
+    width: 282px;
+    margin-top: 17px;
+}
+
+.reglaments__dropdown-item {
+    position: absolute;
+    left: -19px;
+    width: 282px;
+    padding: 13px 0;
+    text-align: center;
+    font-weight: 700;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #ffffff;
+    color: #979DBB;
+    transition: .3s;
+}
+
+.reglaments__dropdown-item:nth-child(1) {
+    top: -9px;
+    z-index: 1;
+}
+
+.reglaments__dropdown-item:nth-child(2) {
+    top: 25px;
+    z-index: 2;
+}
+
+.reglaments__dropdown-item:nth-child(3) {
+    top: 60px;
+    z-index: 3;
+}
+
+.reglaments__dropdown-item:nth-child(4) {
+    top: 94px;
+    z-index: 4;
+}
+
+.reglaments__dropdown-item:nth-child(5) {
+    top: 128px;
+    z-index: 5;
+}
+
+.reglaments__dropdown-item:nth-child(6) {
+    top: 163px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 6;
+}
+
+.reglaments__dropdown-item:hover {
+    background-color: #4F8BE4;
+    color: #ffffff;
+}
+
+.reglaments__menu-img .fa-filter {
+    margin-right: 9px;
+    font-size: 12px;
+    color: #4F8BE4;
+}
+
+.reglaments__menu-text {
+    position: relative;
+    font-weight: 600;
+}
+
+.reglaments__menu-text::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 31px;
+    background-color: #979DBB;
+}
+
+.reglaments__menu-search {
+    width: 100%;
+    margin-left: 33px;
+}
+
+.reglaments__menu-input {
+    width: 100%;
+    font-family: 'GothamPro', sans-serif;
+    font-size: 14px;
+    border: none;
+    background-color: #F5F7FB;
+}
+
+.reglaments__menu-btns {
+    display: flex;
+    align-items: center;
+}
+
+.reglaments__menu-btn:nth-child(1) {
+    margin-right: 28px;
+}
+
+.reglaments__menu-btn:nth-child(2) {
+    padding: 15px 41px;
+}
+
+.reglaments__menu-whom {
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.reglaments__menu-whom span {
+    color: #A9ABBA;
+}
+
+.reglaments__menu-chosen {
+    display: inline-block;
+    margin-bottom: 7px;
+    padding: 3px 14px;
+    border: 1px solid #B6D3FF;
+    border-radius: 40px;
+}
+
+.reglaments__content {
+    overflow-x: hidden;
+}
+
+.reglaments__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 6px;
+}
+
+.reglaments__content-item {
+    position: relative;
+}
+
+.reglaments__content-item:hover {
+    background-color: #F5F7FB;
+}
+
+.reglaments__content-item::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #A9ABBA;
+}
+
+.reglaments__content-left {
+    display: flex;
+    align-items: center;
+}
+
+.reglaments__content-state {
+    margin-right: 17px;
+    padding: 10px 7px;
+    text-align: center;
+    border-radius: 40px;
+    color: #ffffff;
+}
+
+.reglaments__content-title {
+    position: relative;
+    margin-right: 36px;
+}
+
+.reglaments__content-title::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 31px;
+    background-color: #A9ABBA;
+}
+
+.reglaments__content-whom {
+    color: #A9ABBA;
+}
+
+.reglaments__content-right {
+    position: relative;
+}
+
+.reglaments__content-dots {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+}
+
+.reglaments__content-btn {
+    padding-right: 65px;
+}
+
+#regulationlearned .reglaments__content-state {
+    width: 86px;
+    background-color: #87ED97;
+}
+
+#regulationforapproval .reglaments__content-state {
+    width: 100px;
+    background-color: #EDCA87;
+}

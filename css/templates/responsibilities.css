@@ -1,0 +1,50 @@
+.resposibilities {
+    padding: 68px 0 0 38px;
+}
+
+.responsibilities__btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 74px;
+}
+
+.responsibilities__inner {
+    display: flex;
+    align-items: center;
+}
+
+.responsibilities__btn:nth-child(2) {
+    margin-left: 27px;
+    padding: 15px 41px;
+}
+
+.responsibilities__table-title {
+    max-width: 200px;
+    width: 100%;
+    margin-right: 200px;
+    padding: 20px 0;
+}
+
+.responsibilities__table-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.responsibilities__table-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #A9ABBA;
+}
+
+.responsibilities__table-text {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px 0;
+    color: #A9ABBA;
+}

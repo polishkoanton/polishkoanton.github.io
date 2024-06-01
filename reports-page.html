@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/templates/reports.css">
+    <title>Reports</title>
+</head>
+<body>
+    <main class="main">
+        <section class="main__inner">
+            <div class="main__wrapper">
+                <div class="menu main__menu">
+                    <div class="menu__wrapper main__menu-wrapper">
+                        <div class="menu__top main__menu-top">
+                            <div class="menu__top-logo main__menu-logo">
+                                Qwick
+                            </div>
+                            <ul class="menu__top-list main__menu-list">
+                                <li class="menu__top-item main__menu-item">
+                                    <i class="fa-solid fa-house main__menu-img"></i>
+                                    <a href="front-page.html" class="main__menu-link" data-menu-item="1">Main</a>
+                                </li>
+                                <li class="main__menu-item" id="menuitem2">
+                                    <i class="fa-solid fa-table-list main__menu-img"></i>
+                                    <a href="ofc-page.html" class="main__menu-link" data-menu-item="2">OFC</a>
+                                    <div class="question-big menu__top-question" id="question-2">
+                                        <i class="fa-solid fa-question"></i>
+                                    </div>
+                                </li>
+                                <li class="main__menu-item">
+                                    <i class="fa-regular fa-file main__menu-img"></i>
+                                    <a href="regulations-page.html" class="main__menu-link" data-menu-item="3">Regulations</a>
+                                    <div class="question-big menu__top-question" id="question-3">
+                                        <i class="fa-solid fa-question"></i>
+                                    </div>
+                                </li>
+                                <li class="main__menu-item">
+                                    <i class="fa-solid fa-list-check main__menu-img"></i>
+                                    <a href="responsibilities-page.html" class="main__menu-link" data-menu-item="4">My responsibilities</a>
+                                    <div class="question-big menu__top-question" id="question-4">
+                                        <i class="fa-solid fa-question"></i>
+                                    </div>
+                                </li> 
+                                <li class="main__menu-item">
+                                    <i class="fa-solid fa-file main__menu-img"></i>
+                                    <a href="reports-page.html" class="main__menu-link" data-menu-item="5">Reports</a>
+                                    <div class="question-big menu__top-question" id="question-5">
+                                        <i class="fa-solid fa-question"></i>
+                                    </div>
+                                </li>
+                                <li class="main__menu-item">
+                                    <i class="fa-regular fa-comment main__menu-img"></i>
+                                    <a href="communications-page.html" class="main__menu-link" data-menu-item="6">Communications</a>
+                                    <div class="question-big menu__top-question" id="question-6">
+                                        <i class="fa-solid fa-question"></i>
+                                    </div>
+                                </li>
+                                <li class="main__menu-item">
+                                    <i class="fa-solid fa-users main__menu-img"></i>
+                                    <a href="employees-page.html" class="main__menu-link" data-menu-item="7">Employees</a>
+                                </li>
+                                <li class="main__menu-item">
+                                    <i class="fa-solid fa-wallet main__menu-img"></i>
+                                    <a href="payment-page.html" class="main__menu-link" data-menu-item="8">Payment</a>
+                                </li>
+                                <li class="main__menu-item">
+                                    <i class="fa-solid fa-gear main__menu-img"></i>
+                                    <a href="settings-page.html" class="main__menu-link" data-menu-item="9">Settings</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main__menu-bottom">
+                            <div class="main__menu-info">
+                                <a href="#" class="main__menu-confidency">Privacy policy</a>
+                                <p>All rights reserved</p>
+                            </div>
+                            <div class="main__menu-music">
+                                <div class="main__music-img">
+                                    <i class="fa-solid fa-headphones"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__menu-background"></div>
+                </div>
+                <div class="main__content">
+                    <div class="main__content-wrapper">
+                        <div class="main__content-menu main__content-menu--2">
+                            <div class="main__content-user">
+                                <div class="main__content-notification">
+                                    <div class="main__notification-img">
+                                        <i class="fa-regular fa-bell"></i>
+                                        <div class="main__content-notification--dot"></div>
+                                    </div>
+                                </div>
+                                <div class="main__content-account">
+                                    <img class="main__account-img" src="images/account-image.jpg" alt="account image">
+                                </div>
+                                <div class="main__content-dropdown main__content-dots dots">
+                                    <div class="dot-1"></div>
+                                    <div class="dot-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="report content-2" id="content-5">
+                            <div class="report__wrapper">
+                                <div class="report__inner">
+                                    <h3 class="report__title title">Reports</h3>
+                                    <select class="report__select">
+                                        <option value="1">By regulations</option>
+                                        <option value="2"></option>
+                                        <option value="3"></option>
+                                    </select>
+                                </div>
+                                <div class="report__search main__content-search input-search">
+                                    <input type="text" class="main__content-input input-1" id="reports-search" placeholder="Search......">
+                                    <div class="main__search-img">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </div>
+                                <div class="report__tabs tabs">
+                                    <div class="report__tab tab active-tab" id="tab-1">Employees</div>
+                                    <div class="report__tab tab" id="tab-2">Tasks for learning</div>
+                                </div>
+                                <div class="report__content" id="content-1">
+                                    <div class="report__content-table">
+                                        <div class="report__table-head">
+                                            <div class="report__table-title">Employee</div>
+                                            <div class="report__table-sort">Total</div>
+                                            <div class="report__table-sort">Learned</div>
+                                            <div class="report__table-sort">Have to learn</div>
+                                            <div class="report__table-sort">Procent of learning</div>
+                                        </div>
+                                        <div class="report__table-body scroll-block">
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Name 1</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee"> 
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Name 2</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Name 3</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                        <div class="report__table-total">26</div>
+                                                    </div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div> 
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                            <div class="report__table-item" id="reportemployee">
+                                                <div class="reports__table-wrapper">
+                                                    <div class="report__table-person">
+                                                        <div class="report__table-img">
+                                                            <img src="images/account-image-1.jpg" alt="image account 1">
+                                                        </div>
+                                                        <div class="report__table-name" id="report-name">Efrain Montes</div>
+                                                    </div>
+                                                    <div class="report__table-total">26</div>
+                                                    <div class="report__table-learned">12</div>
+                                                    <div class="report__table-havetolearn">14</div>
+                                                    <div class="report__table-procent">46,2%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: none;" class="report__content" id="content-2"></div>
+                                    <div class="report__table-item">
+                                            <div class="report__table-person">
+                                                <div class="report__table-img">
+                                                    <img src="images/account-image-1.jpg" alt="image account">
+                                                </div>
+                                                <div class="report__table-name"></div>
+                                            </div>
+                                            <div class="report__table-total"></div>
+                                            <div class="report__table-learned"></div>
+                                            <div class="report__table-havetolearn"></div>
+                                            <div class="report__table-procent"></div>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" id="popup-5">
+                <div class="popup__block scroll-block">
+                    <div class="popup__title">Отчеты</div>
+                    <p class="popup__text">
+                        Sorry, unfortunately this reference not ready yet. We necessarily will prepare it in the near future. 
+                    </p>
+                    <div class="popup__btn-wrapper">
+                        <button class="popup__btn btn-1">Изучил 👍</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/Print.js"></script>
+    <script src="js/Search.js"></script>
+    <script src="js/Inputs.js"></script>
+    <script src="js/Menu.js"></script>
+    <script src="js/Popups.js"></script>
+    <script src="js/Scroll.js"></script>
+    <script src="js/Tabs.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+.pay__tabs {
+    margin-bottom: 54px;
+}
+
+.pay__content {
+    color: #1C1D20;
+    overflow-x: hidden;
+}
+
+.pay__content-top {
+    margin-bottom: 50px;
+}
+
+.pay__content-subtitle {
+    margin-bottom: 17px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.pay__content-card {
+    position: relative;
+    display: inline-block;
+    padding: 31px 37px;
+    border-radius: 8px;
+    background-color: #F5F7FB;
+    z-index: 1;
+}
+
+.pay__content-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: .3s;
+    opacity: 0;
+    background: linear-gradient(to right top, #3A78F2, #4F8BE4CC);
+    z-index: -1;
+}
+
+.pay__content-card:hover::before {
+    opacity: 1;
+}
+
+.pay__content-card:hover .pay__card-title {
+    color: #ffffff;
+}
+
+.pay__content-card:hover .pay__card-text {
+    color: #ffffff;
+}
+
+.pay__content-card:hover .pay__card-discount, .pay__content-card:hover .pay__card-price, .pay__content-card:hover .pay__card-benefit {
+    color: #ffffff;
+}
+
+.pay__content-card:hover .pay__card-discount::before {
+    background-color: #ffffff;
+}
+
+.pay__content-card:hover .pay__card-btn:nth-child(1) {
+    background-color: #F5F7FB;
+    color: #1C1D20;
+}
+
+.pay__content-card:hover .pay__card-btn:nth-child(2) {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.pay__card-title {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.pay__card-text {
+    margin-bottom: 34px;
+    color: #979DBB;
+}
+
+.pay__content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 33px 40px;
+    padding-bottom: 40px;
+}
+
+.pay__content-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay__card-btn {
+    padding: 13px 38px;
+}
+
+.pay__card-btn:nth-child(1) {
+    margin-right: 10px;
+}
+
+.pay__content-payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay__card-discount {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: #A9ABBA;
+}
+
+.pay__card-discount::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1px;
+    width: 100%;
+    background-color: #A9ABBA;
+}
+
+.pay__card-price {
+    font-weight: 700;
+    font-size: 17px;
+    color: #4F8BE4;
+}
+
+.pay__card-benefit {
+    position: absolute;
+    top: 33px;
+    right: 23px;
+    font-weight: 600;
+    font-size: 14px;
+}
